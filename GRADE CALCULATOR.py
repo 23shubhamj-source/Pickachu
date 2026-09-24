@@ -8,7 +8,7 @@ print(""" #### INSTRUCTIONS#####
 
 n= str(input("Enter your name:-"))
 print("Hi!", n.capitalize() , "nice meeting you.......\n")
-print("Please enter your study year in this form-- Fist Year/ Third Year.....")
+print("Please enter your study year in this form-- First Year/ Third Year.....")
 
 x= str(input ("Enter your study year in college:-"))
 print("You are in",x,".\n")
