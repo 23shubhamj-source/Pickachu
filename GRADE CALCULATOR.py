@@ -27,7 +27,8 @@ if p in ["B.tech", "b.tech","btech","Btech"]:
     c= str(input("Enter your branch:-"))
     print(c)
 
-    if c in ["CSE", "Cse", "Cse(ai-ds))", "ai-ds","cse(ai-ds)", "Cse(forensics and cybersecurity)", "CSE(AI-DS)", "CSE(Forensics and Cybersecurity)", "Civil", "Mechanical", "Petroleum","Chemical", "Electrical","ENTC","Electronics"]:
+    if c in ["CSE", "Cse", "Cse(ai-ds))", "ai-ds","cse(ai-ds)", "Cse(forensics and cybersecurity)", "CSE(AI-DS)", "CSE(Forensics and Cybersecurity)", 
+             "Civil", "Mechanical", "Petroleum","Chemical", "Electrical","ENTC","Electronics"]:
     
         score = int(input("Enter your score: "))
 
@@ -77,15 +78,15 @@ elif p in ["Bioengineering", "Biotechnology","Medical","Microbiology"]:
      
      
     if score >= 80:
-        print("Grade:A+")
-    elif score >=75:
         print("Grade:A")
-    elif score >= 70:
+    elif score >=75:
         print("Grade:B")
-    elif score >= 60:
+    elif score >= 70:
         print("Grade:C")
-    elif score >= 50:
+    elif score >= 60:
         print("Grade:D")
+    elif score >= 50:
+        print("Grade:E")
     else:
         print("Grade:P")
 
