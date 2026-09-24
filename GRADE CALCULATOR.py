@@ -25,7 +25,7 @@ print("\n")
 if p in ["B.tech", "b.tech","btech","Btech"]:
     print("You are studing in",p,", department of engineering.")
     c= str(input("Enter your branch:-"))
-    print(c)
+    print("You are in",c,"branch of B.tech.")
 
     if c in ["CSE", "Cse", "Cse(ai-ds))", "ai-ds","cse(ai-ds)", "Cse(forensics and cybersecurity)", "CSE(AI-DS)", "CSE(Forensics and Cybersecurity)", 
              "Civil", "Mechanical", "Petroleum","Chemical", "Electrical","ENTC","Electronics"]:
